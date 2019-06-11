@@ -1,0 +1,35 @@
+<template>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-4 col-sm-offset-3" style="margin-top:150px; ">
+        登录页面
+        <form class="form-horizontal">
+          <div class="form-group">
+            <label class="col-sm-2 control-label">账号</label>
+            <div class="col-sm-10">
+              <input type="text" class="form-control" name="username">
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="col-sm-2 control-label">密码</label>
+            <div class="col-sm-10">
+              <input type="password" class="form-control" name="password">
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="col-sm-offset-9 col-sm-10">
+              <button type="submit" class="btn btn-default">登录</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</template>
+<script>
+export default {
+  name: "login",
+  data() {return {}},
+  methods: {}
+};
+</script>
